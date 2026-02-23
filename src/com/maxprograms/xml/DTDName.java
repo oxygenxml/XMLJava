@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2022 - 2025 Maxprograms.
+ * Copyright (c) 2022-2025 Maxprograms.
  *
  * This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License 1.0
@@ -11,6 +11,9 @@
  *******************************************************************************/
 package com.maxprograms.xml;
 
+import java.util.List;
+import java.util.Vector;
+
 public class DTDName implements ContentParticle {
 
     private String name;
@@ -21,6 +24,10 @@ public class DTDName implements ContentParticle {
         this.cardinality = ContentModel.NONE;
     }
 
+    public String getName() {
+        return name;
+    }
+    
     @Override
     public int getType() {
         return ContentParticle.NAME;
@@ -29,6 +36,18 @@ public class DTDName implements ContentParticle {
     @Override
     public int getCardinality() {
         return cardinality;
+    }
+
+    @Override
+    public void addParticle(ContentParticle particle) {
+        // do nothing
+    }
+
+    @Override
+    public List<ContentParticle> getParticles() {
+        List<ContentParticle> result = new Vector<>();
+        result.add(this);
+        return result;
     }
 
     @Override

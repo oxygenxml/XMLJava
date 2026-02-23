@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2022 - 2025 Maxprograms.
+ * Copyright (c) 2022-2025 Maxprograms.
  *
  * This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License 1.0
@@ -32,7 +32,8 @@ public class Document implements XMLNode {
 	private String internalSubset;
 	private Charset encoding;
 	private Map<String, String> entities;
-	private List<AttributeDecl> attributeDeclarations;
+	private List<AttlistDecl> attlistDeclarations;
+
 
 	private static Logger logger = System.getLogger(Document.class.getName());
 
@@ -284,14 +285,6 @@ public class Document implements XMLNode {
 		outputter.output(this, output);
 	}
 
-	public void setAttributes(List<AttributeDecl> attributes) {
-		this.attributeDeclarations = attributes;
-	}
-
-	public List<AttributeDecl> getAttributes() {
-		return attributeDeclarations;
-	}
-
 	public void setInternalSubset(String value) {
 		internalSubset = value;
 	}
@@ -301,4 +294,11 @@ public class Document implements XMLNode {
 		return toString().hashCode();
 	}
 
+    public void setAttlistDeclarations(List<AttlistDecl> attlistDeclarations) {
+        this.attlistDeclarations = attlistDeclarations;
+    }
+
+    public List<AttlistDecl> getAttlistDeclarations() {
+        return attlistDeclarations;
+    }
 }

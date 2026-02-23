@@ -2,3 +2,10 @@
 /bin/
 /.scannerwork/
 /target/
+bin/
+.scannerwork/
+.vscode/
+.gradle/
+.github/
+.settings/
+build/

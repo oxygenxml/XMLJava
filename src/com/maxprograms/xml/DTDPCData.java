@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2022 - 2025 Maxprograms.
+ * Copyright (c) 2022-2025 Maxprograms.
  *
  * This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License 1.0
@@ -11,6 +11,9 @@
  *******************************************************************************/
 package com.maxprograms.xml;
 
+import java.util.List;
+import java.util.Vector;
+
 public class DTDPCData implements ContentParticle {
 
     @Override
@@ -20,14 +23,24 @@ public class DTDPCData implements ContentParticle {
 
     @Override
     public void setCardinality(int cardinality) {
-        // do nothing        
+        // do nothing
+    }
+
+    @Override
+    public void addParticle(ContentParticle particle) {
+        // do nothing
+    }
+
+    @Override
+    public List<ContentParticle> getParticles() {
+        return new Vector<>();
     }
 
     @Override
     public int getCardinality() {
         return ContentModel.NONE;
     }
-    
+
     @Override
     public String toString() {
         return "#PCDATA";

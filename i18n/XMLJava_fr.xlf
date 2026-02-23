@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xliff srcLang="en" xmlns:mtc="urn:oasis:names:tc:xliff:matches:2.0" version="2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" trgLang="es" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+<xliff srcLang="en" xmlns:mtc="urn:oasis:names:tc:xliff:matches:2.0" version="2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" trgLang="fr" xmlns="urn:oasis:names:tc:xliff:document:2.0">
   <file original="com/maxprograms/xml/xmljava.properties" id="0">
     <skeleton>QXR0bGlzdERlY2wuMD0lJSUwJSUlCkNhdGFsb2cuMD0lJSUxJSUlCkNhbGF0YWxvZy4xPSUlJTIl
 JSUKQ2FsYXRhbG9nLjI9JSUlMyUlJQpDYXRhbG9nLjM9JSUlNCUlJQpDb250ZW50TW9kZWwuMD0l
@@ -26,7 +26,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
         <mda:meta type="tool-version">3.13.0 20230829_0823</mda:meta>
       </mda:metaGroup>
       <mda:metaGroup category="PI">
-        <mda:meta type="encoding">utf8</mda:meta>
+        <mda:meta type="encoding">UTF-8</mda:meta>
       </mda:metaGroup>
     </mda:metadata>
     <unit id="0">
@@ -37,7 +37,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="0">
         <source xml:space="preserve">Default value not found after #FIXED in ''{0}''</source>
-        <target xml:space="preserve">Valor predeterminado no encontrado después de #FIXED en ''{0}''</target>
+        <target xml:space="preserve">Valeur par défaut non trouvée après #FIXED dans ''{0}''</target>
       </segment>
     </unit>
     <unit id="1">
@@ -48,7 +48,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="1">
         <source xml:space="preserve">Error parsing DTD ''{0}''</source>
-        <target xml:space="preserve">Error al analizar DTD ''{0}''</target>
+        <target xml:space="preserve">Erreur lors de l’analyse de la DTD ''{0}''</target>
       </segment>
     </unit>
     <unit id="2">
@@ -59,7 +59,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="2">
         <source xml:space="preserve">Error connecting to ''{0}'': {1}</source>
-        <target xml:space="preserve">Error conectando a ''{0}'': {1}</target>
+        <target xml:space="preserve">Erreur lors de la connection à ''{0}'' : {1}</target>
       </segment>
     </unit>
     <unit id="3">
@@ -70,7 +70,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="3">
         <source xml:space="preserve">Error  {0} for: {1}</source>
-        <target xml:space="preserve">Error  {0} para: {1}</target>
+        <target xml:space="preserve">Erreur {0} à {1}</target>
       </segment>
     </unit>
     <unit id="4">
@@ -81,7 +81,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="4">
         <source xml:space="preserve">Resolving from URL ''{0}''</source>
-        <target xml:space="preserve">Resolviendo desde URL ''{0}''</target>
+        <target xml:space="preserve">Résolution de l’URL ''{0}'' en cours</target>
       </segment>
     </unit>
     <unit id="5">
@@ -92,7 +92,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="5">
         <source xml:space="preserve">Invalid mixed content model: {0}</source>
-        <target xml:space="preserve">Modelo de contenido mixto no válido: {0}</target>
+        <target xml:space="preserve">Modèle de contenu mixte invalide : {0}</target>
       </segment>
     </unit>
     <unit id="6">
@@ -103,7 +103,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="6">
         <source xml:space="preserve">Cardinality operator ''{0}'' must follow a valid particle</source>
-        <target xml:space="preserve">El operador de cardinalidad ''{0}'' debe aparecer después de una partícula válida.</target>
+        <target xml:space="preserve">L’opérateur de cardinalité ''{0}'' doit se trouver après une particule valide</target>
       </segment>
     </unit>
     <unit id="7">
@@ -114,7 +114,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="7">
         <source xml:space="preserve">Invalid content model: {0}</source>
-        <target xml:space="preserve">Modelo de contenido no válido: {0}</target>
+        <target xml:space="preserve">Modèle de contenu invalide : {0}</target>
       </segment>
     </unit>
     <unit id="8">
@@ -125,7 +125,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="8">
         <source xml:space="preserve">Empty group found in content model</source>
-        <target xml:space="preserve">Se encontró un grupo vacío en el modelo de contenido</target>
+        <target xml:space="preserve">Il y a un groupe vide dans le modèle de contenu</target>
       </segment>
     </unit>
     <unit id="9">
@@ -136,7 +136,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="9">
         <source xml:space="preserve">No separator found when parsing group</source>
-        <target xml:space="preserve">No se encontró separador al analizar grupo</target>
+        <target xml:space="preserve">Pas de séparateur trouvé lors de l’analyse du groupe</target>
       </segment>
     </unit>
     <unit id="10">
@@ -147,7 +147,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="10">
         <source xml:space="preserve">Unbalanced parentheses in content model: {0}</source>
-        <target xml:space="preserve">Paréntesis desequilibrados en el modelo de contenido: {0}</target>
+        <target xml:space="preserve">Parenthésage incorrect dans le modèle de contenu : {0}</target>
       </segment>
     </unit>
     <unit id="11">
@@ -158,7 +158,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="11">
         <source xml:space="preserve">Invalid token in content model: {0}</source>
-        <target xml:space="preserve">Token no válido en el modelo de contenido: {0}</target>
+        <target xml:space="preserve">Token invalide dans le modèle de contenu : {0}</target>
       </segment>
     </unit>
     <unit id="12">
@@ -169,7 +169,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="12">
         <source xml:space="preserve">Malformed content found</source>
-        <target xml:space="preserve">Se ha encontrado contenido con formato incorrecto</target>
+        <target xml:space="preserve">Il y a du contenu mal formé</target>
       </segment>
     </unit>
     <unit id="13">
@@ -180,7 +180,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="13">
         <source xml:space="preserve">Prolog contains wrong content type</source>
-        <target xml:space="preserve">Prólogo contiene un tipo de contenido incorrecto</target>
+        <target xml:space="preserve">Type de contenu incorrect dans le prologue</target>
       </segment>
     </unit>
     <unit id="14">
@@ -191,7 +191,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="14">
         <source xml:space="preserve">Malformed entity reference</source>
-        <target xml:space="preserve">Referencia de entidad con formato incorrecto</target>
+        <target xml:space="preserve">Référence à une entité mal formée</target>
       </segment>
     </unit>
     <unit id="15">
@@ -202,7 +202,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="15">
         <source xml:space="preserve">Referenced undeclared entity {0}</source>
-        <target xml:space="preserve">Entidad no declarada referenciada {0}</target>
+        <target xml:space="preserve">Référence à une entité non déclarée {0}</target>
       </segment>
     </unit>
     <unit id="16">
@@ -213,7 +213,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="16">
         <source xml:space="preserve">Malformed comment</source>
-        <target xml:space="preserve">Comentario mal formado</target>
+        <target xml:space="preserve">Commentaire mal formé</target>
       </segment>
     </unit>
     <unit id="17">
@@ -224,7 +224,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="17">
         <source xml:space="preserve">Malformed conditional section</source>
-        <target xml:space="preserve">Sección condicional con formato incorrecto</target>
+        <target xml:space="preserve">Section conditionnelle mal formée</target>
       </segment>
     </unit>
     <unit id="18">
@@ -235,7 +235,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="18">
         <source xml:space="preserve">Text before: {0}</source>
-        <target xml:space="preserve">Texto antes: {0}</target>
+        <target xml:space="preserve">Texte juste avant : {0}</target>
       </segment>
     </unit>
     <unit id="19">
@@ -246,7 +246,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="19">
         <source xml:space="preserve">Text after: {0}</source>
-        <target xml:space="preserve">Texto después: {0}</target>
+        <target xml:space="preserve">Texte juste après : {0}</target>
       </segment>
     </unit>
     <unit id="20">
@@ -257,7 +257,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="20">
         <source xml:space="preserve">Error parsing DTD ''{0}''</source>
-        <target xml:space="preserve">Error al analizar DTD ''{0}''</target>
+        <target xml:space="preserve">Erreur lors de l’analyse de la DTD ''{0}''</target>
       </segment>
     </unit>
     <unit id="21">
@@ -268,7 +268,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="21">
         <source xml:space="preserve">Unknown parameter entity ''{0}'' referenced in {1}</source>
-        <target xml:space="preserve">Entidad de parámetro desconocida ''{0}'' referenciada en {1}</target>
+        <target xml:space="preserve">Entité de paramètre inconnue ''{0}'' referencée par {1}</target>
       </segment>
     </unit>
     <unit id="22">
@@ -278,8 +278,8 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
         </mda:metaGroup>
       </mda:metadata>
       <segment state="final" id="22">
-        <source xml:space="preserve">Broken parameter entity found in {1}</source>
-        <target xml:space="preserve">Entidad de parámetro dañada encontrada en ''{0}''</target>
+        <source xml:space="preserve">Broken parameter entity found in {0}</source>
+        <target xml:space="preserve">Il y a une entité de paramètre corrompue dans {0}</target>
       </segment>
     </unit>
     <unit id="23">
@@ -290,7 +290,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="23">
         <source xml:space="preserve">Error parsing referenced entity %{0};</source>
-        <target xml:space="preserve">Error al analizar la entidad referenciada %{0};</target>
+        <target xml:space="preserve">Erreur lors de l’analyse de l’entité référencée %{0} ;</target>
       </segment>
     </unit>
     <unit id="24">
@@ -301,7 +301,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="24">
         <source xml:space="preserve">Module ''{0}'' not found</source>
-        <target xml:space="preserve">Módulo ''{0}'' no encontrado</target>
+        <target xml:space="preserve">Module ''{0}'' non trouvé</target>
       </segment>
     </unit>
     <unit id="25">
@@ -312,7 +312,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="25">
         <source xml:space="preserve">Malformed element declaration</source>
-        <target xml:space="preserve">Declaración de elementos con formato incorrecto</target>
+        <target xml:space="preserve">Déclaration d’élément mal formée</target>
       </segment>
     </unit>
     <unit id="26">
@@ -323,7 +323,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="26">
         <source xml:space="preserve">Malformed attribute declaration</source>
-        <target xml:space="preserve">Declaración de atributo con formato incorrecto</target>
+        <target xml:space="preserve">Déclaration d’attribut mal formée</target>
       </segment>
     </unit>
     <unit id="27">
@@ -334,7 +334,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="27">
         <source xml:space="preserve">Malformed entity declaration</source>
-        <target xml:space="preserve">Declaración de entidad con formato incorrecto</target>
+        <target xml:space="preserve">Déclaration d’entité mal formée</target>
       </segment>
     </unit>
     <unit id="28">
@@ -345,7 +345,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="28">
         <source xml:space="preserve">Duplicated entity declaration {0}</source>
-        <target xml:space="preserve">Declaración de entidad duplicada {0}</target>
+        <target xml:space="preserve">Déclaration d’entitée en doublon {0}</target>
       </segment>
     </unit>
     <unit id="29">
@@ -356,7 +356,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="29">
         <source xml:space="preserve">Malformed notation declaration</source>
-        <target xml:space="preserve">Declaración de notación con formato incorrecto</target>
+        <target xml:space="preserve">Déclaration de notation mal formée</target>
       </segment>
     </unit>
     <unit id="30">
@@ -367,7 +367,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="30">
         <source xml:space="preserve">Malformed processing instruction</source>
-        <target xml:space="preserve">Instrucción de procesamiento con formato incorrecto</target>
+        <target xml:space="preserve">Instruction de traitement mal formée</target>
       </segment>
     </unit>
     <unit id="31">
@@ -378,7 +378,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="31">
         <source xml:space="preserve">Element contains wrong content type</source>
-        <target xml:space="preserve">El elemento contiene un tipo de contenido incorrecto</target>
+        <target xml:space="preserve">Type de contenu incorrect dans l’élément</target>
       </segment>
     </unit>
     <unit id="32">
@@ -389,7 +389,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="32">
         <source xml:space="preserve">Missing ''{0}'' in &lt;include&gt;</source>
-        <target xml:space="preserve">Falta ''{0}'' en &lt;include&gt;</target>
+        <target xml:space="preserve">Il manque ''{0}'' dans &lt;include&gt;</target>
       </segment>
     </unit>
     <unit id="33">
@@ -400,7 +400,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="33">
         <source xml:space="preserve">Missing ''{0}'' in &lt;externalRef&gt;</source>
-        <target xml:space="preserve">Falta ''{0}'' en &lt;externalRef&gt;</target>
+        <target xml:space="preserve">Il manque ''{0}'' dans &lt;externalRef&gt;</target>
       </segment>
     </unit>
     <unit id="34">
@@ -411,7 +411,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="34">
         <source xml:space="preserve">File ''{0}'' does not exist</source>
-        <target xml:space="preserve">El archivo ''{0}'' no existe</target>
+        <target xml:space="preserve">Le fichier ''{0}'' n’existe pas</target>
       </segment>
     </unit>
     <unit id="35">
@@ -422,7 +422,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="35">
         <source xml:space="preserve">Header contains wrong content type</source>
-        <target xml:space="preserve">El encabezado contiene un tipo de contenido incorrecto</target>
+        <target xml:space="preserve">Type de contenu incorrect dans l’en-tête</target>
       </segment>
     </unit>
     <unit id="36">
@@ -433,7 +433,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="36">
         <source xml:space="preserve">Unknown node type</source>
-        <target xml:space="preserve">Tipo de nodo desconocido</target>
+        <target xml:space="preserve">Type de nœud inconnu</target>
       </segment>
     </unit>
     <unit id="37">
@@ -444,7 +444,7 @@ cHV0dGVyLjE9JSUlMzYlJSUKWE1MVXRpbHMuMT0lJSUzNyUlJQo=</skeleton>
       </mda:metadata>
       <segment state="final" id="37">
         <source xml:space="preserve">Error reading BOM from {0}</source>
-        <target xml:space="preserve">Error al leer Marca de Orden de Bytes (BOM) de {0}</target>
+        <target xml:space="preserve">Erreur à la lecture du BOM de {0}</target>
       </segment>
     </unit>
   </file>

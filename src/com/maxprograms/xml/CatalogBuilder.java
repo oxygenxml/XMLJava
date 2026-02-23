@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2022 - 2025 Maxprograms.
+ * Copyright (c) 2022-2025 Maxprograms.
  *
  * This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License 1.0
@@ -23,13 +23,14 @@ import org.xml.sax.SAXException;
 
 public class CatalogBuilder {
 
-    private static Map<String,Catalog> map = new Hashtable<>();
+    private static Map<String, Catalog> map = new Hashtable<>();
 
     private CatalogBuilder() {
         // Do not instantiate
     }
 
-    public static Catalog getCatalog(String file) throws SAXException, IOException, ParserConfigurationException, URISyntaxException{
+    public static Catalog getCatalog(String file)
+            throws SAXException, IOException, ParserConfigurationException, URISyntaxException {
         if (!map.containsKey(file)) {
             map.put(file, new Catalog(file));
         }

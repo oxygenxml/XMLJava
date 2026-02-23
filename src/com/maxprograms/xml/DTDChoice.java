@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2022 - 2025 Maxprograms.
+ * Copyright (c) 2022-2025 Maxprograms.
  *
  * This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License 1.0
@@ -12,6 +12,8 @@
 package com.maxprograms.xml;
 
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 import java.util.Vector;
 
 public class DTDChoice implements ContentParticle {
@@ -45,7 +47,47 @@ public class DTDChoice implements ContentParticle {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
-        return super.toString();
+        StringBuilder sb = new StringBuilder("(");
+        for (int i = 0; i < content.size(); i++) {
+            ContentParticle particle = content.get(i);
+            sb.append(particle.toString());
+            if (i < content.size() - 1) {
+                sb.append('|');
+            }
+        }
+        sb.append(')');
+        switch (cardinality) {
+            case ContentModel.NONE:
+                return sb.toString();
+            case ContentModel.OPTIONAL:
+                return sb + "?";
+            case ContentModel.ONEMANY:
+                return sb + "+";
+            case ContentModel.ZEROMANY:
+                return sb + "*";
+            default:
+                // ignore
+        }
+        return sb.toString();
+    }
+
+    public List<ContentParticle> getParticles() {
+        return content;
+    }
+
+    public Set<String> getChildren() {
+        Set<String> children = new TreeSet<>();
+        for (ContentParticle particle : content) {
+            if (particle instanceof DTDName name) {
+                children.add(name.getName());
+            }
+            if (particle instanceof DTDChoice choice) {
+                children.addAll(choice.getChildren());
+            }
+            if (particle instanceof DTDSecuence sequence) {
+                children.addAll(sequence.getChildren());
+            }
+        }
+        return children;
     }
 }

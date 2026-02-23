@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2022 - 2025 Maxprograms.
+ * Copyright (c) 2022-2025 Maxprograms.
  *
  * This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License 1.0
@@ -41,6 +41,10 @@ public class ElementDecl implements XMLNode {
         return name;
     }
 
+    public ContentModel getModel() {
+        return model;
+    }
+    
     @Override
     public short getNodeType() {
         return XMLNode.ELEMENT_DECL_NODE;

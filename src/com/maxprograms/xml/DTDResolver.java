@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2022 - 2025 Maxprograms.
+ * Copyright (c) 2022-2025 Maxprograms.
  *
  * This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License 1.0
@@ -22,7 +22,6 @@ import org.xml.sax.InputSource;
 
 public class DTDResolver implements EntityResolver {
 
-	@SuppressWarnings("resource")
 	@Override
 	public InputSource resolveEntity(String publicId, String systemId) throws IOException {
 		try {

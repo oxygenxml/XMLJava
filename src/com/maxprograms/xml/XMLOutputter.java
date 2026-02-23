@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2022 - 2025 Maxprograms.
+ * Copyright (c) 2022-2025 Maxprograms.
  *
  * This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License 1.0
@@ -60,13 +60,14 @@ public class XMLOutputter {
 				String publicId = sdoc.getPublicId();
 				String systemId = sdoc.getSystemId();
 				String internalSubset = sdoc.getInternalSubset();
-				List<AttributeDecl> customAttributes = sdoc.getAttributes();
-				if (customAttributes != null) {
+
+				List<AttlistDecl> attlistDeclarations = sdoc.getAttlistDeclarations();
+				if (attlistDeclarations != null && !attlistDeclarations.isEmpty()) {
 					if (internalSubset == null) {
 						internalSubset = "";
 					}
-					for (int i = 0; i < customAttributes.size(); i++) {
-						internalSubset = internalSubset + "\n" + customAttributes.get(i);
+					for (AttlistDecl attlist : attlistDeclarations) {
+						internalSubset += "\n" + attlist.toString();
 					}
 				}
 				if (publicId != null || systemId != null || internalSubset != null) {
