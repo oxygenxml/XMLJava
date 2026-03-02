@@ -6,7 +6,28 @@
     <version>27.1-SNAPSHOT</version>
   </parent>
   <artifactId>oxygen-patched-xmljava</artifactId>
-  <version>2.1.1-SNAPSHOT</version>
+  <version>2.4.1-SNAPSHOT</version>
+
+  <properties>
+    <patched.groupId>com.maxprograms</patched.groupId>
+    <patched.artifactId>xmljava</patched.artifactId>
+    <patched.version>2.4.0</patched.version>
+  </properties>
+
+  <!-- <dependencies>
+    <dependency>
+      <groupId>${patched.groupId}</groupId>
+      <artifactId>${patched.artifactId}</artifactId>
+      <version>${patched.version}</version>
+      <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies> -->
 
   <profiles>
 	  <profile>
